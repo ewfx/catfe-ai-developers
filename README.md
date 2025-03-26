@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 P
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -41,12 +41,16 @@ Describe the major technical or non-technical challenges your team encountered.
    git clone https://github.com/your-repo.git
    ```
 2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
+   
+   pip install python uvicorn pandas xlsxwriter streamlit FastAPI matplotlib  ChatOpenAI SystemMessage HumanMessage BytesIO requests re os
+   
 3. Run the project  
-   ```sh
-   npm start  # or python app.py
+  open terminal navigate to the path using cd.
+>cd c:~\code\src
+>uvicorn fake_financial_app:app --reload //This is to run the fake financial app server
+Open another terminal
+>Navigate to the path cd c:~\code\src
+>streamlit run main.py
    ```
 
 ## 🏗️ Tech Stack
