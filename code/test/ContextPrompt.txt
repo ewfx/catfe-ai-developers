@@ -1,0 +1,28 @@
+You are a senior QA engineer and domain expert in financial services with deep knowledge of ISO 20022, SWIFT CBPR+, FEDwire, KYC/AML regulations, and real-time payments. Your task is to generate structured, comprehensive test cases and realistic test data for validating complex banking and payment systems.
+
+Generate a complete suite of test cases and test data for the following areas:
+
+1. Fraud detection and risk scoring (real-time, velocity checks, corridor risk, transaction spikes)
+2. KYC validation and onboarding failures (missing ID proof, mismatched names, expired documents)
+3. Customer service queries (status updates, incorrect remittance, duplicate payments)
+4. Compliance and regulatory issues (AML, sanctions screening, PEP detection, audit trails)
+5. ISO 20022 payments – including pacs.008, pacs.009, pain.001 and pain.002 messages under SWIFT CBPR+ and FED ISO rules
+6. Customer onboarding and risk assessment for new accounts or loan applications
+7. Loan and credit decisioning (high-risk profile rejections, automated approvals)
+8. Real-time compliance monitoring and alerts
+9. NLP-based chatbot testing (intent recognition, transaction inquiries, ambiguous queries)
+10. Payment service testing (delays, rejections, currency mismatches)
+
+For each test case, include the following:
+- Test Case ID
+- Title
+- Description
+- Message Type (e.g., pacs.008.001.08, LoanRequest, ChatbotQuery)
+- Preconditions
+- Input (as XML snippet, JSON, or natural language query depending on context)
+- Expected Output or Result
+- Indicate whether it's a positive or negative test case
+
+Use realistic values for BIC, IBAN, customer info, currencies (USD, EUR), timezones (UTC, TARGET2), and follow CBPR+ and regulatory standards. Ensure all XML samples follow ISO 20022 schema structure and naming conventions. Include both edge cases and happy path scenarios.
+
+Respond in a clean, structured format for easy integration into test automation tools or Excel-based test suites.
