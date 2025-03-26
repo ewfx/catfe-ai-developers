@@ -1,4 +1,4 @@
-# 🚀 P
+# 🚀 Context Aware Testing System Powered By AI
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -38,8 +38,8 @@ Describe the major technical or non-technical challenges your team encountered.
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
-   ```
+   git clone https://github.com/catfe-ai-developers.git
+   In the main.py add OpenAI API key 
 2. Install dependencies  
    
    pip install python uvicorn pandas xlsxwriter streamlit FastAPI matplotlib  ChatOpenAI SystemMessage HumanMessage BytesIO requests re os
@@ -54,11 +54,13 @@ Open another terminal
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: Streamlit
+- 🔹 Backend: Python / FastAPI 
+- 🔹 Other: OpenAI API 
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Pavan Pokala** - [GitHub](#) | [LinkedIn](#)
+- **Dinakar Ravula* - [GitHub](#) | [LinkedIn](#)
+- **Gopi Gella* - [GitHub](#) | [LinkedIn](#)
+- **Rambabu Gorantla* - [GitHub](#) | [LinkedIn](#)
+- **Prashanth Habbu* - [GitHub](#) | [LinkedIn](#)
